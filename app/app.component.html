@@ -1,0 +1,5 @@
+<app-list-item *ngFor="let item of items$ | async" 
+  [itemValue]=item
+>
+</app-list-item>
+<button (click)="updateItems()">Update item</button>
